@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "caveescape",
+  "version": "${version}",
+  "name": "Cave Escape Challenge",
+  "description": "Spawns the player in a sealed underground cave with 2 wooden pickaxes and 1 torch to test if they can dig their way out.",
+  "authors": ["CaveEscape"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.caveescape.CaveEscapeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
